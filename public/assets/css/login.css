@@ -1,0 +1,53 @@
+body{
+    width: 100%;
+    background-image: url(https://pixabay.com/get/gfaf1f794d5c109b1b3cf84815e06f70c1657ca23822cb2f28dca792e8db5cd3fae470c5a0c6612995e7dc9d8d26e83b87f1f0433f928598d4eeb2f4cdbc9f50b_1280.jpg);
+}
+form{
+  
+        position: relative;
+        z-index: 1;
+        background: #061F43;
+        max-width: 560px;
+        margin:20px auto ;
+        padding: 35px;
+        text-align: center;
+        border-radius: 20px;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+        color:white;
+
+}
+form input{
+
+        font-family: 'Merriweather', serif;
+        outline: 0;
+        
+        width: 100%;
+        border: 0;
+        margin: 0 0 15px;
+        padding: 15px;
+        box-sizing: border-box;
+        font-size: 14px;
+}
+form button {
+        font-family: 'Merriweather', serif;
+        text-transform: uppercase;
+        outline: 0;
+        background:#FBCE70;
+        width: 100%;
+        border: 0;
+        margin-top: 15px;
+        padding: 15px;
+        border-radius: 25px;
+        color: #061C3E;
+        font-size: 14px;
+        transition: all 0.3 ease;
+        cursor: pointer;
+    }
+form label {
+        font-family: 'Merriweather', serif;
+        font-size: 14px;
+        color: white;
+        margin: 10px;
+    }
+
+
